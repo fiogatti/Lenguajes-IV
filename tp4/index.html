@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Blob y Slice</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Proyecto Blob y Slice</h1>
+
+        <textarea id="texto" placeholder="Escribí el texto para crear tu archivo..."></textarea>
+
+        <div class="botones">
+            <button onclick="crearArchivo()">Crear archivo</button>
+            <button onclick="descargarArchivo()">Descargar archivo</button>
+            <button onclick="usarSlice()">Usar Slice</button>
+        </div>
+
+        <div class="resultado">
+            <h2>Resultado</h2>
+            <p id="mensaje">Todavía no se creó ningún archivo.</p>
+            <div id="sliceResultado"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
