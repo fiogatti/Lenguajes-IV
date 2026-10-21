@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #263238;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #263f5b;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.botones {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    padding: 13px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+}
+
+#btnIniciar {
+    background-color: #43a047;
+}
+
+#btnDetener {
+    background-color: #e53935;
+}
+
+#btnLimpiar {
+    background-color: #546e7a;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}
+
+.historial {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.historial h2 {
+    margin-bottom: 18px;
+    color: #263f5b;
+    font-size: 22px;
+}
+
+#listaHistorial {
+    list-style: none;
+}
+
+#listaHistorial li {
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background-color: #f5f7fa;
+    border-left: 4px solid #546e7a;
+    color: #455a64;
+    font-size: 14px;
+}
